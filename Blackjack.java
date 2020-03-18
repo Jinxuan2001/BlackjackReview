@@ -80,7 +80,7 @@ public class Blackjack {
 
 
 
-        while (numGames != 0){
+        while (numGames != 0){//Could use do-while loop;
             playOpt = scnr.nextInt();
             if (playOpt == 1){
                 int cardNum = rng.nextInt(13) + 1;
